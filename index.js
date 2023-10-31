@@ -6,7 +6,6 @@ let check = false;
 
 Array.from(btns).forEach((e) => {
     e.addEventListener("click", () => {
-        console.log(e.innerText);
         input.value += e.innerText;
 
         if (e.innerText === 'AC') {
